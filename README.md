@@ -29,13 +29,19 @@ It covers staging, deduplication, regex salary extraction, text normalization, s
 
 ## 📊 Before vs After
 
-**Raw data (before cleaning):**
+**Salary Before And After:**<br>
+![Before cleaning](images/Before_Salary.png)
+![After cleaning](images/After_Salary.png)
 
-![Before cleaning](images/before.png)
 
-**Cleaned data (after cleaning):**
+**Size Before vs After:**
 
-![After cleaning](images/after.png)
+![Before cleaning](images/Size_Before.png)
+![After cleaning](images/Size_After.png)
+
+**Revenue Categorızed:**
+
+![Categorzied Revenue](images/Categorzied_Revenue.png)
 
 ---
 
