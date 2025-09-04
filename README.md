@@ -26,22 +26,6 @@ It covers staging, deduplication, regex salary extraction, text normalization, s
   - Normalize size field
 
 ---
-## 📂 Repository Structure
-ds-jobs-cleaning-postgres/
-├── README.md
-├── LICENSE
-├── sql/
-│ ├── cleaning.sql # main cleaning script
-│ └── quality_checks.sql # validation queries
-├── data/
-│ ├── raw/Uncleaned_DS_jobs.csv
-│ └── clean/cleaned_ds_jobs_me.csv
-└── images/
-├── before.png
-└── after.png
-
-
----
 
 ## 📊 Before vs After
 
@@ -57,8 +41,6 @@ ds-jobs-cleaning-postgres/
 
 ## ▶️ How to Run (PostgreSQL 12+)
 
-**Option A — CLI**
-```bash
 # 1. Create target database
 createdb ds_jobs
 
@@ -90,10 +72,3 @@ psql -d ds_jobs -f sql/cleaning.sql
 
 # 5. Run validation
 psql -d ds_jobs -f sql/quality_checks.sql
-
-
-
-
-
-
-## 📂 Repository Structure
