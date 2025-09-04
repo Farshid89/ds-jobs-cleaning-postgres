@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------------
    Data Cleaning Script: Glassdoor Data Science Jobs
-   Author: <Your Name> | GitHub: <your-link>
+   Author: Farshid Maleki | GitHub: github.com/Farshid89
    Database: PostgreSQL 12+
    ---------------------------------------------------------------
    Purpose:
@@ -205,4 +205,5 @@ ALTER TABLE ds_jobs_staging2
 COMMIT;
 
 SELECT * FROM ds_jobs_staging2
+
 
